@@ -186,3 +186,21 @@ header nav ul li a:hover {
 #contact button:hover {
     background-color: var(--text-color);
 }
+
+footer {
+    background-color: var(--hover-color);
+    color: var(--nav-text-color);
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer .social-links a {
+    color: var(--nav-text-color);
+    margin: 0 10px;
+    text-decoration: none;
+}
+
+footer .social-links a:hover {
+    text-decoration: underline;
+    color: var(--text-color);
+}
