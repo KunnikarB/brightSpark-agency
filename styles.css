@@ -64,3 +64,40 @@ header nav ul li a:last-child {
 header nav ul li a:hover {
   color: var(--hover-color);
 }
+
+#hero {
+    background: var(--primary-color);
+    color: var(--nav-text-color);
+    padding: 100px 0;
+    text-align: center;
+}
+
+#hero h2 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+}
+
+#hero p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    margin-bottom: 50px;
+}
+
+.cta-button {
+    background-color: var(--hover-color);
+    color: var(--nav-text-color);
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 50px;
+    
+}
+
+.cta-button:hover {
+    background-color: var(--text-color);
+    color: var(--hover-color);
+}
+
+#services {
+    padding: 50px 0;
+    text-align: center;
+}
