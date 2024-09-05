@@ -75,6 +75,8 @@ header nav ul li a:hover {
 #hero h2 {
     font-size: 3rem;
     margin-bottom: 10px;
+    font-family: "Fraunces", system-ui;
+    color: var(--hover-color)
 }
 
 #hero p {
@@ -100,4 +102,39 @@ header nav ul li a:hover {
 #services {
     padding: 50px 0;
     text-align: center;
+}
+
+#services h2 {
+    margin-bottom: 40px;
+    font-size: 2.5rem;
+    font-family: "Fraunces", system-ui;
+    color: var(--primary-color);
+}
+
+.service-cards {
+    display: flex;
+    justify-content: space-around;
+}
+
+.service {
+    background-color: var(--text-color);
+    padding: 20px;
+    width: 30%;
+    border-radius: 10px;
+}
+
+.service h3 {
+    margin-bottom: 10px;
+    font-size: 1.5rem;
+    font-family: "Fraunces", system-ui;
+    color: var(--hover-color);
+}
+
+.service p {
+    font-size: 1rem;
+    color: var(--nav-text-color);
+    background-color: var(--primary-color);
+  border-radius: 50px;
+  padding: 15px 20px;
+
 }
