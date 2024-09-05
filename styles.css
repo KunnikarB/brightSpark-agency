@@ -138,3 +138,51 @@ header nav ul li a:hover {
   padding: 15px 20px;
 
 }
+
+#contact {
+    padding: 50px 0;
+    background-color: var(--primary-color);
+    text-align: center;
+}
+
+#contact form {
+    width: 50%;
+    margin: 0 auto;
+}
+ #contact h2 {
+    margin-bottom: 40px;
+    font-size: 2.5rem;
+    font-family: "Fraunces", system-ui;
+    color: var(--hover-color);
+}
+
+#contact form label {
+    display: block;
+    text-align: center;
+    margin: 10px 0;
+    color: var(--nav-text-color);
+}
+
+#contact input, #contact textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    
+}
+
+#contact button {
+    background-color: var(--hover-color);
+    color: var(--nav-text-color);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    font-size: 1rem;
+    margin-bottom: 50px;
+}
+
+#contact button:hover {
+    background-color: var(--text-color);
+}
