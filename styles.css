@@ -140,17 +140,25 @@ nav ul li a:hover {
 #services h2 {
   margin-bottom: 30px;
   color: var(--button-color);
+  font-size: 1.5em;
+}
+
+#services h4 {
+  color: var(--header-color);
+  font-family: 'Barlow', sans-serif;
+  font-weight: 600;
+  font-size: 1em;
 }
 
 .service-cards {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
+  margin-top: 30px;
 }
 
 .card {
   background-color: var(--header-color);
-
   border-radius: 8px;
   box-shadow: 0 4px 8px rgba(47, 165, 186, 0.1);
   padding: 20px;
